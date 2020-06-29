@@ -1,3 +1,4 @@
+import 'package:fluttealertbox/addTextField.dart';
 import 'package:fluttealertbox/alert.dart';
 import 'package:flutter/material.dart';
 
@@ -27,6 +28,6 @@ class MyApp extends StatelessWidget {
           // closer together (more dense) than on mobile platforms.
           visualDensity: VisualDensity.adaptivePlatformDensity,
         ),
-        home: AlertBoxExample());
+        home: demo());
   }
 }
